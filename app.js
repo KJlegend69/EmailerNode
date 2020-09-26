@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-mongoose.connect('mongodb+srv://admin:kunal123@@cluster0.djnew.mongodb.net/<dbname>?retryWrites=true&w=majority',{useUnifiedTopology: true, useNewUrlParser: true})   
+mongoose.connect('mongodb+srv://kunal:admin123@@cluster0.ubmge.mongodb.net/<dbname>?retryWrites=true&w=majority',{useUnifiedTopology: true, useNewUrlParser: true})   
     .then(() => {
         console.log('db Connected 🔥')
     })
